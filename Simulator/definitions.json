@@ -1,0 +1,41 @@
+{ "TokenTypes": [
+    {"name":"DirectivaDato",	"value": 0},
+	{"name":"DirectivaCódigo",	"value": 1},
+	{"name":"Declaración",		"value": 2},
+	{"name":"Coma",				"value": 3},
+	{"name":"Etiqueta",			"value": 4},
+	{"name":"Operación",		"value": 5},
+	{"name":"Variable",			"value": 6},
+	{"name":"Registro",			"value": 7},
+	{"name":"Entero",			"value": 8},
+	{"name":"ErrorLéxico",		"value": 9}
+   ]
+}
+
+{
+    "keywords": [
+      {
+        "type": 40.416875,
+        "longitude": -3.703308,
+        "city": "Madrid",
+        "description": "Puerta del Sol"
+      },
+      {
+        "latitude": 40.417438,
+        "longitude": -3.693363,
+        "city": "Madrid",
+        "description": "Paseo del Prado"
+      },
+      {
+        "latitude": 40.407015,
+        "longitude": -3.691163,
+        "city": "Madrid",
+        "description": "Estación de Atocha"
+      }
+    ]
+}
+
+ public TokenTypes Type { get; }
+        public string Name { get; }
+        public int Weight { get; }
+        public string Key { get; }
